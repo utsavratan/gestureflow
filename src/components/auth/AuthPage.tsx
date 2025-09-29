@@ -36,7 +36,7 @@ const AuthPage = () => {
 
       toast({
         title: "Welcome to Gesture Flow! 🎉",
-        description: "Check your email to verify your account and start learning.",
+        description: "Check your email to verify your account and get started.",
       });
     } catch (error: any) {
       toast({
@@ -63,7 +63,7 @@ const AuthPage = () => {
 
       toast({
         title: "Welcome back! 👋",
-        description: "Ready to continue your ASL journey?",
+        description: "Ready to start interpreting?",
       });
     } catch (error: any) {
       toast({
@@ -87,7 +87,7 @@ const AuthPage = () => {
           <div>
             <h1 className="text-3xl font-bold text-gradient">Gesture Flow</h1>
             <p className="text-muted-foreground">
-              Master Sign Language with AI-powered learning and real-time feedback
+              AI-powered real-time Sign Language Interpreter
             </p>
           </div>
         </div>
@@ -97,7 +97,7 @@ const AuthPage = () => {
           <CardHeader className="space-y-1">
             <CardTitle className="text-center text-2xl">Get Started</CardTitle>
             <CardDescription className="text-center">
-              Join thousands learning ASL through interactive lessons
+              Turn gestures into text and speech. Break communication barriers—try it now!
             </CardDescription>
           </CardHeader>
           
@@ -235,10 +235,10 @@ const AuthPage = () => {
         {/* Features Preview */}
         <div className="text-center space-y-2">
           <p className="text-sm text-muted-foreground">What you'll get:</p>
-          <div className="flex justify-center gap-4 text-xs text-muted-foreground">
-            <span>• AI Practice Feedback</span>
-            <span>• Progress Tracking</span>
-            <span>• Daily Challenges</span>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
+            <span>• Instant voice and text output</span>
+            <span>• Real-time Sign-to-Text translation</span>
+            <span>• Accessible communication everywhere</span>
           </div>
         </div>
       </div>
